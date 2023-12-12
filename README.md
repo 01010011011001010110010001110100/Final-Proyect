@@ -1,6 +1,6 @@
 # READ ME
 
-# Informacion general
+# Información general
 
 Sistema en la version 1.0.0
 
