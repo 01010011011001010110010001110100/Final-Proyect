@@ -9,8 +9,8 @@ Sistema en la version 1.0.0
 # Importacion de paquetes y recursos:
 
 
-**Paquetes:**
-
+*Paquetes:*
+---
 Los `paquenes necesarios` para que el programa funcione son los siguientes:
 
 - JCalendar 1.5 jar
@@ -24,7 +24,8 @@ Los `paquenes necesarios` para que el programa funcione son los siguientes:
 Todos estos paquetes se encuentran en la `carpeta raiz del proyecto`, por si falla alguna importacion, se pueda
 buscar de manera manual en el directorio: [ `Lib\lib` ]
 
-**Recursos:**
+*Fuentes:*
+--
 
 Por temas de que se utilizan `fuente tipograficas externas`, las cuales no suelen tener todos los sistemas, recomendamos importar las siguientes fuentes en su sistema
 para que el programa funcione de la forma correcta, las fuentes utilizadas son las siguientes:
@@ -53,9 +54,24 @@ Si no sabe agregar nuevas fuentes al computador puede seguir esta guia, de lo co
 4 - Arrastre todas las fuentes que estan la carpeta `Fonts` del proyecto  
 5 - Listo  
 
+*Base de datos:*
+-----
+
+Para que el proyecto corra de forma correcta debemos de estar `conectados a una base de datos`, en este caso estaremos utilizando `MySQL 8.30`, entonces
+, debemos utilizar alguna herramienta que nos permita utilizar `MySQL`, una vez hecho esto, hay que ejecutar un `Archivo.sql` ubicado
+en en el siguiente directorio: `[ Lib\src\Backup\LibQuery - Lite.sql ]`, para que se cree la base de datos y sus regitros estaticos.
+
+En este punto se podra utilizar la aplicacion, pero si hay algun problema con la base de datos, se puede deber a los siguientes puntos:
+
+1 - La version del MySQL es muy antigua y no es compatible con el `JDBC 8.0.30` del proyecto  
+2 - La `IP` iniciado en el MySQL es diferente de la `IP` en el archivo `[ ConnectionMYSQL.java ]` del proyecto ya que el proyecto esta conectado al `localhost`   
+3 - Versiones diferentes de JDK  
+
+*****
+
 #
 
-# Como utilizar la aplicacion
+# Como utilizar la aplicacion [Manual usuario]
 
 **Log in**
 
