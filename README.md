@@ -1,6 +1,6 @@
 # READ ME
 
-![Logo](https://github.com/01010011011001010110010001110100/Final-Proyect/assets/89937780/9a2b4294-3b88-4550-ae63-1c63e7a708cc)
+![LogoWhite](https://github.com/01010011011001010110010001110100/Final-Proyect/assets/89937780/d61fad7f-b851-4b79-9cea-94204ca2cee1)
 
 # Información general
 
